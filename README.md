@@ -37,11 +37,11 @@ Terraform Configuration
 
 1. Initialize Terraform:
 
-   $   terraform init
+                $   terraform init
 
 2. Review and Apply Changes:
 
-   $   terraform apply
+                $   terraform apply
 
    Provide the desired values when prompted.
 
@@ -59,21 +59,21 @@ To use this module in your own Terraform configurations, follow these steps:
 
 1. Create a `main.tf` file:
 
-   module "my_s3_bucket" {
-     source            =”../SourceFolder"
-     bucket_name       = "my-custom-bucket"
-   }
+                  module "my_s3_bucket" {
+                            source            =”../SourceFolder"
+                            bucket_name       = "my-custom-bucket"
+                   }
 
 Replace `"../SourceFolder"` with the actual location of your module directory.
 
 2. Initialize Terraform:
 
-  $   terraform init
+              $   terraform init
    
 
 3. Review and Apply Changes:
 
-  $   terraform apply
+              $   terraform apply
    
 
    Provide the desired values when prompted.
