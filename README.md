@@ -25,11 +25,11 @@ Module Configuration
 
 The module's main configuration is defined in the `variables.tf` file. The key parameter to customize is `bucket_name`. Here's an example:
 
-variable "bucket_name" {
-  description = "The name of the S3 bucket"
-  type        = string
-  default     = "myalps3ha"
-}
+                          variable "bucket_name" {
+                                  description = "The name of the S3 bucket"
+                                  type        = string
+                                  default     = "myalps3ha"
+                        }
 
 
 
